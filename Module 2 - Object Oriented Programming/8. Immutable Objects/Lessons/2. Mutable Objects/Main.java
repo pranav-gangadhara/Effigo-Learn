@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
 
-        // **************** Immutable Object ****************
+        
         Integer applesWrapper = 5;
 
-        Integer applesWrapper2 = applesWrapper;     // SAFE
+        Integer applesWrapper2 = applesWrapper;     
         applesWrapper2 = 10;
 
         System.out.println(applesWrapper);
         System.out.println(applesWrapper2);
 
-        // **************** Mutable Object ****************
+        
         
         City city = new City("Paris", 2161000);
-        City secondCity = city;            // DANGEROUS
+        City secondCity = city;           
 
         city.setPopulation(2261000);
         secondCity.setPopulation(2263400);
