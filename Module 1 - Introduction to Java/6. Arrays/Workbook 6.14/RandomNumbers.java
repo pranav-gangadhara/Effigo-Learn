@@ -18,7 +18,7 @@ public class RandomNumbers {
   
 
     public static int randomNumber() {
-        double randomNumber = Math.random()*100;
+        double randomNumber = Math.random()*200;
         return (int)randomNumber;
     }
 
